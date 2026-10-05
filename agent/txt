@@ -1,0 +1,89 @@
+Policy Intelligence Orchestrator — one-time setup
+======================================================================
+Creating memory stores (knowledge bases)...
+  MP Policy Profile                -> memstore_01XLJxHjcfoAwZYEL9VLH6ZG
+  Parliamentary and Government Policy -> memstore_01WGFqxGwA5BwLo7FpYfjpvB
+  Karnataka and Bangalore South    -> memstore_015f5hy8ADWPFGnUqPMbjY1j
+  Global Policy Repository         -> memstore_01Wz82XkSSsxXahUML9Rbibv
+  Policy Position Register         -> memstore_01XqyXjwGzqpB9nxtrQTnxiv
+
+Creating 18 Agent Skills from policy_orchestrator/skills/...
+  policy-question-framing                -> skill_01QhWvmiYx6uwEmVYxTeJvge (v1784359717224220)
+  official-policy-source-research        -> skill_01H9zj966kvoPY6JfxWAgyQL (v1784359718816733)
+  claim-evidence-mapping                 -> skill_015LMPCvagApcVGZJ8dRYhzV (v1784359720328746)
+  citation-and-fact-verification         -> skill_01J95HS5bUXCAzqAstcxmkfA (v1784359721777044)
+  stakeholder-position-analysis          -> skill_01APHcw83omykDnv6UCU12Um (v1784359722870601)
+  karnataka-bengaluru-impact-assessment  -> skill_01L1ZBQXuDAsK2BSM6GE4CWq (v1784359724172419)
+  global-policy-benchmarking             -> skill_01W8Le6KFtt9pgSm9tPZd96T (v1784359725519175)
+  policy-option-generation               -> skill_01PHSASw3YZ8Kbe8YmdcAxTf (v1784359727128153)
+  cost-benefit-and-tradeoff-analysis     -> skill_01BDYyd38xccJAosiTEpRAM4 (v1784359728549262)
+  legal-and-institutional-feasibility    -> skill_01YQ65o58qPT61pa55Gs1Pak (v1784359730255808)
+  implementation-readiness-assessment    -> skill_01Ed9Gaa14kqt8i7y48qzbxH (v1784359731667865)
+  policy-position-development            -> skill_01RrMaYahRBEKKCZz9tVjaQb (v1784359733202192)
+  policy-position-red-teaming            -> skill_01QUBfxo6nkpXEayU2Fw2h6h (v1784359734746710)
+  mp-position-consistency-check          -> skill_01BotHwzmsxj2XYDbMd4DSKd (v1784359736339413)
+  policy-brief-writing                   -> skill_01Mo2SyKjhHiNX2GA2Dwgid2 (v1784359737696291)
+  speech-and-question-conversion         -> skill_01TSghm8ic5E6yeeRJr5QNts (v1784359739201887)
+  sensitivity-and-confidentiality-review -> skill_01NUXsFC49BDtfCJiK7F3apZ (v1784359740724590)
+  approved-position-versioning           -> skill_01E6E114RSfXfL63CqXeSouF (v1784359742185739)
+
+Creating 8 specialist subagents...
+  Policy Question Framing Agent          -> agent_01Remkdak6uhBcnVYkCF6KLc (v1) [1 skill(s)]
+  Evidence Research Agent                -> agent_0128ZEbcdH2FcnULQ5fG1D7m (v1) [3 skill(s)]
+  Stakeholder Mapping Agent              -> agent_019yfqGiuoaUmpSmLTQ92FuT (v1) [1 skill(s)]
+  Karnataka and Bengaluru Impact Agent   -> agent_01Br92H12HNFkHHBQnvbsmwx (v1) [1 skill(s)]
+  Global Benchmark Agent                 -> agent_01PhZfEdDLVB8xh6twqS4e7y (v1) [1 skill(s)]
+  Policy Options and Trade-off Agent     -> agent_01Vd4qdXP3apojTqaUYtGoBh (v1) [4 skill(s)]
+  Position Development and Challenge Agent -> agent_01Gh6EADsrUojMKuF2mXtmHM (v1) [3 skill(s)]
+  Policy Output and Action Agent         -> agent_01CKSpSwj1Q6bEDmUFjx9Zxf (v1) [4 skill(s)]
+
+Creating coordinator (Policy Intelligence Orchestrator)...
+  Policy Intelligence Orchestrator     -> agent_015YLqGE7hLRFfqKfSR9kbDK (v1)
+
+Creating shared environment...
+  policy-intelligence-env          -> env_015qReMP3VmpC7Jz48rFQchp
+
+Policy Intelligence Orchestrator — one-time setup
+======================================================================
+Creating memory stores (knowledge bases)...
+  MP Policy Profile                -> memstore_01XLJxHjcfoAwZYEL9VLH6ZG
+  Parliamentary and Government Policy -> memstore_01WGFqxGwA5BwLo7FpYfjpvB
+  Karnataka and Bangalore South    -> memstore_015f5hy8ADWPFGnUqPMbjY1j
+  Global Policy Repository         -> memstore_01Wz82XkSSsxXahUML9Rbibv
+  Policy Position Register         -> memstore_01XqyXjwGzqpB9nxtrQTnxiv
+
+Creating 18 Agent Skills from policy_orchestrator/skills/...
+  policy-question-framing                -> skill_01QhWvmiYx6uwEmVYxTeJvge (v1784359717224220)
+  official-policy-source-research        -> skill_01H9zj966kvoPY6JfxWAgyQL (v1784359718816733)
+  claim-evidence-mapping                 -> skill_015LMPCvagApcVGZJ8dRYhzV (v1784359720328746)
+  citation-and-fact-verification         -> skill_01J95HS5bUXCAzqAstcxmkfA (v1784359721777044)
+  stakeholder-position-analysis          -> skill_01APHcw83omykDnv6UCU12Um (v1784359722870601)
+  karnataka-bengaluru-impact-assessment  -> skill_01L1ZBQXuDAsK2BSM6GE4CWq (v1784359724172419)
+  global-policy-benchmarking             -> skill_01W8Le6KFtt9pgSm9tPZd96T (v1784359725519175)
+  policy-option-generation               -> skill_01PHSASw3YZ8Kbe8YmdcAxTf (v1784359727128153)
+  cost-benefit-and-tradeoff-analysis     -> skill_01BDYyd38xccJAosiTEpRAM4 (v1784359728549262)
+  legal-and-institutional-feasibility    -> skill_01YQ65o58qPT61pa55Gs1Pak (v1784359730255808)
+  implementation-readiness-assessment    -> skill_01Ed9Gaa14kqt8i7y48qzbxH (v1784359731667865)
+  policy-position-development            -> skill_01RrMaYahRBEKKCZz9tVjaQb (v1784359733202192)
+  policy-position-red-teaming            -> skill_01QUBfxo6nkpXEayU2Fw2h6h (v1784359734746710)
+  mp-position-consistency-check          -> skill_01BotHwzmsxj2XYDbMd4DSKd (v1784359736339413)
+  policy-brief-writing                   -> skill_01Mo2SyKjhHiNX2GA2Dwgid2 (v1784359737696291)
+  speech-and-question-conversion         -> skill_01TSghm8ic5E6yeeRJr5QNts (v1784359739201887)
+  sensitivity-and-confidentiality-review -> skill_01NUXsFC49BDtfCJiK7F3apZ (v1784359740724590)
+  approved-position-versioning           -> skill_01E6E114RSfXfL63CqXeSouF (v1784359742185739)
+
+Creating 8 specialist subagents...
+  Policy Question Framing Agent          -> agent_01Remkdak6uhBcnVYkCF6KLc (v1) [1 skill(s)]
+  Evidence Research Agent                -> agent_0128ZEbcdH2FcnULQ5fG1D7m (v1) [3 skill(s)]
+  Stakeholder Mapping Agent              -> agent_019yfqGiuoaUmpSmLTQ92FuT (v1) [1 skill(s)]
+  Karnataka and Bengaluru Impact Agent   -> agent_01Br92H12HNFkHHBQnvbsmwx (v1) [1 skill(s)]
+  Global Benchmark Agent                 -> agent_01PhZfEdDLVB8xh6twqS4e7y (v1) [1 skill(s)]
+  Policy Options and Trade-off Agent     -> agent_01Vd4qdXP3apojTqaUYtGoBh (v1) [4 skill(s)]
+  Position Development and Challenge Agent -> agent_01Gh6EADsrUojMKuF2mXtmHM (v1) [3 skill(s)]
+  Policy Output and Action Agent         -> agent_01CKSpSwj1Q6bEDmUFjx9Zxf (v1) [4 skill(s)]
+
+Creating coordinator (Policy Intelligence Orchestrator)...
+  Policy Intelligence Orchestrator     -> agent_015YLqGE7hLRFfqKfSR9kbDK (v1)
+
+Creating shared environment...
+  policy-intelligence-env          -> env_015qReMP3VmpC7Jz48rFQchp
